@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(206, 186, 99);
+    color: white;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.623);
+}
+
+section#fundo-meio {
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.493);
+}
+
+div#horario {
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.2em;
+}
+
+div#imagem > img {
+    margin-top: 35px;
+    margin-left: 25%;
+    background-size: cover;
+    width: 250px;
+    border-radius: 50%;
+}
+
+footer > p {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.623);
+}
