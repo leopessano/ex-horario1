@@ -15,7 +15,7 @@
             <h2>Agora são 00:00 horas.</h2>
         </div>
         <div id="imagem">
-            <img src="img/manha.jpg" alt="">
+            <img id="jpg" src="img/manha.jpg" alt="">
         </div>
     </section>
     <footer>
@@ -27,11 +27,13 @@
         var horario = document.getElementById('horario')
         horario.innerHTML = `Agora são ${hora} horas.`
         if (hora > 12 && hora < 18) {
-            document.querySelector('html').style.background = 'rgb(77, 89, 255'
-            document.querySelector('body').style.background = 'rgb(77, 89, 255'
+            document.querySelector('html').style.background = 'rgb(95, 167, 201)'
+            document.querySelector('body').style.background = 'rgb(95, 167, 201)'
+            document.getElementById('jpg').src = 'img/tarde.jpg'
         } else if (hora >= 18 && hora < 24) {
-            document.querySelector('html').style.background = 'rgb(29, 26, 75)'
-            document.querySelector('body').style.background = 'rgb(29, 26, 75)'
+            document.querySelector('html').style.background = 'rgb(34, 31, 46)'
+            document.querySelector('body').style.background = 'rgb(34, 31, 46)'
+            document.getElementById('jpg').src = 'img/noite.jpg'
         }
     </script>
 </body>
