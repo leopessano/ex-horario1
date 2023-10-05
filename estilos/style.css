@@ -19,9 +19,14 @@ h1 {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.623);
 }
 
+section {
+    width: 90%;
+    max-width: 500px;
+}
+
 section#fundo-meio {
     background-color: white;
-    width: 500px;
+    /*width: 500px; */
     height: 350px;
     margin: auto;
     border-radius: 10px;
@@ -29,6 +34,7 @@ section#fundo-meio {
 }
 
 div#horario {
+    margin-bottom: 25px;
     color: black;
     text-align: center;
     padding-top: 20px;
@@ -36,8 +42,8 @@ div#horario {
 }
 
 div#imagem > img {
-    margin-top: 35px;
-    margin-left: 25%;
+    display: block;
+    margin: auto;
     background-size: cover;
     width: 250px;
     border-radius: 50%;
